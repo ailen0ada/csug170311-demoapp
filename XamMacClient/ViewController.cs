@@ -48,7 +48,7 @@ namespace XamMacClient
 			}
 		}
 
-		NSString endpoint;
+		NSString endpoint = (NSString)"http://localhost:5000/api/friends";
 
 		[Outlet]
 		public NSString Endpoint
@@ -66,7 +66,7 @@ namespace XamMacClient
 			}
 		}
 
-		NSString apiKey;
+		NSString apiKey = (NSString)"x3g4FwR8NO5UlEs7Lo29p6VUQ59Gpnti2SFAI53y";
 
 		[Outlet]
 		public NSString ApiKey
